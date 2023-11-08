@@ -49,6 +49,7 @@ router.post('/', async (req, res) => {
   }
 });
 
+// updates some categories by id but not others. Updates a category by id but if I try again with same id does not work
 router.put('/:id', async (req, res) => {
   // update a category by its `id` value
   try {
@@ -67,6 +68,7 @@ router.put('/:id', async (req, res) => {
   }
 });
 
+// work
 router.delete('/:id', async (req, res) => {
   // delete a category by its `id` value
   try {
